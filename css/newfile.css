@@ -1,0 +1,63 @@
+/* ====== TAG SELECTORS ======= */
+body{
+    background-color: rgb(181, 209, 207);
+    font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+img{
+    
+}
+h1{
+   color: black; 
+}
+h2{
+    color: blue;
+    background-color: brown;
+    font-size: 200px;
+   
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: rgb(76, 0, 255);
+    border-width: 10px;
+    width: 30%;
+}
+/* ====== CLASS SELECTORS ==== */
+/* I want to use the .display class to style my h2 */
+.display{
+    color: brown;
+    background-color: bisque;
+    text-align: center;
+    font-size: 30px;    
+}
+.candy{
+    font-size: 100px; 
+    background-color: blueviolet;
+}
+.center {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    position: relative;
+    left: 150px;
+  }
+/*======= ID SELECTORS =========*/
+
+#image1{
+    border-radius: 100%;
+}
+
+#chelsea{
+    background-color: rgb(66, 65, 165);
+    text-align: center;
+    font-size: 70px;   
+}
+
+#Kelvin{
+     font-size: 150px; 
+}
+#diff{
+    width: 100%;
+}
